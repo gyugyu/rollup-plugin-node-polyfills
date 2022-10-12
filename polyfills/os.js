@@ -95,6 +95,11 @@ export function tmpDir() {
 export var tmpdir = tmpDir;
 
 export var EOL = '\n';
+
+export function homedir() {
+  return '/';
+}
+
 export default {
   EOL: EOL,
   tmpdir: tmpdir,
@@ -110,4 +115,5 @@ export default {
   loadavg: loadavg,
   hostname: hostname,
   endianness: endianness,
+  homedir: homedir,
 }
